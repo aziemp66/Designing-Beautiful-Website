@@ -1,5 +1,10 @@
 html {
-    background-color: rgb(236, 236, 236);
+    --color-grey-100: rgb(236, 236, 236);
+    --color-grey-600: rgb(58, 58, 58);
+    --color-grey-400: rgb(58, 58, 58);
+    --color-grey-900: rgb(41, 41, 41);
+
+    background-color: var(--color-grey-100);
     font-family: "Krub", sans-serif;
     font-weight: 400;
 }
@@ -12,7 +17,7 @@ html {
 }
 
 h1 {
-    color: rgb(58, 58, 58);
+    color: var(--color-grey-600);
     text-align: left;
     padding: 30px 50px 0px 50px;
     margin: 10px 0;
@@ -28,7 +33,7 @@ h1 {
 }
 
 .price {
-    color: rgb(41, 41, 41);
+    color: var(--color-grey-900);
     background-color: rgb(167, 226, 255);
     text-align: center;
     margin: 30px auto 10px auto;
@@ -58,7 +63,7 @@ h1 {
 }
 
 .sub-feature-text {
-    color: rgb(58, 58, 58);
+    color: var(--color-grey-400);
     padding: 2px;
     margin: 5px;
 }
