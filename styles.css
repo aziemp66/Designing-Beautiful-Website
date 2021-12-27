@@ -4,6 +4,9 @@ html {
     --color-grey-400: rgb(58, 58, 58);
     --color-grey-900: rgb(41, 41, 41);
 
+    --color-primary-300: rgb(167, 226, 255);
+    --color-primary-700: rgb(0, 170, 255);
+
     background-color: var(--color-grey-100);
     font-family: "Krub", sans-serif;
     font-weight: 400;
@@ -26,7 +29,7 @@ h1 {
 }
 
 .card-info {
-    color: rgb(134, 134, 134);
+    color: var(--color-grey-400);
     text-align: left;
     padding: 0 50px;
     margin: 10px 0 30px 0;
@@ -34,7 +37,7 @@ h1 {
 
 .price {
     color: var(--color-grey-900);
-    background-color: rgb(167, 226, 255);
+    background-color: var(--color-primary-300);
     text-align: center;
     margin: 30px auto 10px auto;
     font-size: 50px;
@@ -42,7 +45,7 @@ h1 {
 }
 
 .price-info {
-    color: rgb(134, 134, 134);
+    color: var(--color-grey-600);
     text-align: center;
     margin: 10px 0 30px 0;
     padding: 0 50px;
@@ -74,7 +77,7 @@ h1 {
 }
 
 .button {
-    color: rgb(0, 170, 255);
+    color: var(--color-primary-700);
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
@@ -88,6 +91,6 @@ h1 {
 
 .button:hover {
     color: white;
-    background-color: rgb(0, 170, 255);
+    background-color: var(--color-primary-700);
     border: 2px solid rgb(255, 255, 255);
 }
